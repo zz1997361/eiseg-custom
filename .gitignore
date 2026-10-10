@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 数据/模型/大文件（不入库）
+datasets/
+label/
+*.zip
+*.pt
+*.npy
+*.pdiparams
+*.pdmodel
+*.jpg
+*.png
+
+# 日志
+*.log
+eiseg_error.log
+
+# IDE / OS
+.idea/
+.vscode/
+Thumbs.db
+desktop.ini
